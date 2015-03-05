@@ -5,11 +5,11 @@ $(function()
        
         var form = $(this);
         var str = form.serialize();
-        alert(str);
+
         $.ajax(
         {
             type: "POST",
-            url: "contact.php",
+            url: "contacto.php",
             data: str,
             success: function(msg)
             {

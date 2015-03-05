@@ -1143,3 +1143,35 @@
 	.add-comment label {
 		display: none;
 	}
+
+        
+ .drupalcamp-logo{
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background: url(../img/logo-drupalcamp.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+  margin: 0 auto;
+  width: 238px;
+}
+
+.drupalcamp-event-date {
+  color: #25a879;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.25;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.drupalcamp-group {
+  background: url(../img/logo-drupalcampleft.jpg), url(../img/logo-drupalcampright.jpg);
+  background-repeat: no-repeat;
+  background-size: 306px 382px, 254px 400px;
+  background-position: left center, right center;
+}
+
+.drupalcamp-event-venue {
+  display: block;
+}

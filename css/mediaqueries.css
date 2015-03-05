@@ -386,6 +386,11 @@
 		display: none;
 	}
 	
+        .drupalcamp-group {
+            width: 100%;
+            background: none;
+        }
+
 
 }
 
